@@ -4,7 +4,7 @@
 
 #Activate the Virtual Environment
 
-    source flask-venv/bin activate
+    source flask-venv/bin/activate
 
 #Install Dependencies
 
