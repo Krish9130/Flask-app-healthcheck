@@ -13,3 +13,8 @@
 #Run the Flask Application
 
     python3 app.py runserver
+
+
+##Access the Application on internet
+
+http://localhost:5000/
