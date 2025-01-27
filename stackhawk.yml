@@ -1,0 +1,12 @@
+# -- stackhawk configuration for React-app --
+app:
+  # -- An applicationId obtained from the StackHawk platform. --
+  applicationId: 969ff701-0323-4fb5-bda5-c3cb2130d0b6
+  # 5321c48d-63a0-4394-b64b-416df5c4bf2e # (required)
+  # -- The environment for the applicationId defined in the StackHawk platform. --
+  env: Pre-Production # (required)
+  # -- The url of your application to scan --
+  host: http://localhost:5000 # (required)
+  
+hawk:
+  startupTimeoutMinutes: 1
