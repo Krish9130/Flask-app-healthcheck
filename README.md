@@ -14,6 +14,10 @@
 
     python3 app.py runserver
 
+# Background running 
+
+    nohup python3 manage.py runserver 127.0.0.1:5000 > nohup_main.log 2>&1 	&
+
 
 ##Access the Application on internet
 
