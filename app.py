@@ -32,7 +32,7 @@ def log_with_timestamp(message, level="info"):
 @app.route('/')
 def home():
     log_with_timestamp('Home page accessed - Status: 200 OK', "info")
-    return "Welcome to the DevOps Team Sangachadwam", 200
+    return "Welcome to the DevOps Team Sangachadwam Ambertag 1", 200
 
 # Health check route
 @app.route('/health', methods=['GET'])
