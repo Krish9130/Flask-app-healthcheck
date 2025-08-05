@@ -2,9 +2,13 @@ from flask import Flask, request, jsonify
 import logging
 from logging.handlers import RotatingFileHandler
 from datetime import datetime
+from elasticapm.contrib.flask import ElasticAPM
+
 
 # Create a Flask application
 app = Flask(__name__)
+
+apm = ElasticAPM(app)
 
 # Configure logging
 handler = RotatingFileHandler('app.log', maxBytes=10000, backupCount=1)
